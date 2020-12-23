@@ -28,10 +28,12 @@ Initially, the code was designed to loop through through each of the twelve tick
 Similar nested For loops were used to find the starting and ending price of each ticker, which then could be used to calculate the yearly return. Each loop executed over 3,013 rows of data once for each ticker. This relatively large computation was the cause for the run times between 1.2 and 1.4 seconds, as shown below.
 
 <img src="https://github.com/bradydwilton/stock_analysis/blob/main/resources/first_draft_2017_run.png" width=900>  
-###### The image above shows the time of the run with the 2017 data before refactoring  
 
-<img src="https://github.com/bradydwilton/stock_analysis/blob/main/resources/first_draft_2018_run.png" width=900>
-###### The image above shows the time of the run with the 2018 data before refactoring
+_The image above shows the time of the run with the 2017 data before refactoring_  
+
+<img src="https://github.com/bradydwilton/stock_analysis/blob/main/resources/first_draft_2018_run.png" width=900>  
+
+_The image above shows the time of the run with the 2018 data before refactoring_
 
 ### Areas of Improvement
 
